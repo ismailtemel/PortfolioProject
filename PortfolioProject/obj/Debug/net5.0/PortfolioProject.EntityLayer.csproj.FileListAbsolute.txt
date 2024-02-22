@@ -1,0 +1,15 @@
+D:\PortfolioProject\PortfolioProject\bin\Debug\net5.0\PortfolioProject.EntityLayer.deps.json
+D:\PortfolioProject\PortfolioProject\bin\Debug\net5.0\PortfolioProject.EntityLayer.runtimeconfig.json
+D:\PortfolioProject\PortfolioProject\bin\Debug\net5.0\PortfolioProject.EntityLayer.runtimeconfig.dev.json
+D:\PortfolioProject\PortfolioProject\bin\Debug\net5.0\PortfolioProject.EntityLayer.dll
+D:\PortfolioProject\PortfolioProject\bin\Debug\net5.0\PortfolioProject.EntityLayer.pdb
+D:\PortfolioProject\PortfolioProject\obj\Debug\net5.0\PortfolioProject.EntityLayer.csproj.AssemblyReference.cache
+D:\PortfolioProject\PortfolioProject\obj\Debug\net5.0\PortfolioProject.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\PortfolioProject\PortfolioProject\obj\Debug\net5.0\PortfolioProject.EntityLayer.AssemblyInfoInputs.cache
+D:\PortfolioProject\PortfolioProject\obj\Debug\net5.0\PortfolioProject.EntityLayer.AssemblyInfo.cs
+D:\PortfolioProject\PortfolioProject\obj\Debug\net5.0\PortfolioProject.EntityLayer.csproj.CoreCompileInputs.cache
+D:\PortfolioProject\PortfolioProject\obj\Debug\net5.0\PortfolioProject.EntityLayer.dll
+D:\PortfolioProject\PortfolioProject\obj\Debug\net5.0\refint\PortfolioProject.EntityLayer.dll
+D:\PortfolioProject\PortfolioProject\obj\Debug\net5.0\PortfolioProject.EntityLayer.pdb
+D:\PortfolioProject\PortfolioProject\obj\Debug\net5.0\PortfolioProject.EntityLayer.genruntimeconfig.cache
+D:\PortfolioProject\PortfolioProject\obj\Debug\net5.0\ref\PortfolioProject.EntityLayer.dll
