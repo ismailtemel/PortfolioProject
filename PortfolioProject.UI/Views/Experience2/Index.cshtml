@@ -50,7 +50,7 @@
 
 
 @section scripts
-    {
+{
     <script>
         $("#btngetlistall").click(function () {
             $.ajax({
@@ -105,14 +105,14 @@
             });
 
         });
-        $("#btndelete").click(x=>{
+        $("#btndelete").click(x => {
             let id = $("#inpexpid").val();
             $.ajax({
-                url: "/Experience/DeleteExperience/"+id,
-                type:"Post",
-                contentType:"application/json",
-                dataType:"json",
-                success:function(funk3){
+                url: "/Experience/DeleteExperience/" + id,
+                type: "Post",
+                contentType: "application/json",
+                dataType: "json",
+                success: function (funk3) {
                     loadData();
                 }
             });

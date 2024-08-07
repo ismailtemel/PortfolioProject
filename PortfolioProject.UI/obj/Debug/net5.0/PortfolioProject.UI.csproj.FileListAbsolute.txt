@@ -163,3 +163,4 @@ D:\PortfolioProject\PortfolioProject.UI\obj\Debug\net5.0\Razor\Areas\Writer\View
 D:\PortfolioProject\PortfolioProject.UI\obj\Debug\net5.0\Razor\Areas\Writer\Views\Shared\Components\Navbar\Default.cshtml.g.cs
 D:\PortfolioProject\PortfolioProject.UI\obj\Debug\net5.0\Razor\Areas\Writer\Views\Shared\Components\Notification\Default.cshtml.g.cs
 D:\PortfolioProject\PortfolioProject.UI\obj\Debug\net5.0\Razor\Areas\Writer\Views\_ViewImports.cshtml.g.cs
+D:\PortfolioProject\PortfolioProject.UI\obj\Debug\net5.0\PortfolioProject.UI.sourcelink.json

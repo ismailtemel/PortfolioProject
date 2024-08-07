@@ -1,4 +1,4 @@
-﻿@using EntityLayer.Concrete
+﻿﻿@using EntityLayer.Concrete
 @model List<Testimonial>
 <div class="section px-3 px-lg-4 pt-5" id="testimonials">
     <div class="container-narrow">
@@ -14,12 +14,12 @@
                         <div class="text-end me-2">
                             <div class="fw-bolder">@item.ClientName</div>
                             <div class="text-small">@item.Title / @item.Company</div>
-                        </div><img class="me-md-3 rounded" src="@item.ImageUrl" width="96"/>
+                        </div><img class="me-md-3 rounded" src="@item.ImageUrl" width="96" />
                     </div>
                 </div>
-            <br />
+                <br />
             }
-            
+
 
         </div>
     </div>

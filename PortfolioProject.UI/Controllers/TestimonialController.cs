@@ -26,16 +26,16 @@ namespace PortfolioProject.UI.Controllers
         }
         public IActionResult DeleteTestimonial(int id)
         {
-        var values=testimonialManager.TGetByID(id);
+            var values = testimonialManager.TGetByID(id);
             testimonialManager.TDelete(values);
             return RedirectToAction("Index");
         }
         [HttpGet]
         public IActionResult EditTestimonial(int id)
         {
-        var values=testimonialManager.TGetByID(id);
+            var values = testimonialManager.TGetByID(id);
             return View(values);
-            
+
         }
         [HttpPost]
         public IActionResult EditTestimonial(Testimonial testimonial)

@@ -2,7 +2,7 @@
 @{
     Layout = null;
 }
- 
+
 <!DOCTYPE html>
 <!-- upto 2 directory depth-->
 <html lang="en-US">
@@ -14,8 +14,8 @@
 
     <div class="page-content">
         <div id="content">
-          
-            @await Component.InvokeAsync("FeatureList")   
+
+            @await Component.InvokeAsync("FeatureList")
             @await Component.InvokeAsync("AboutList")
             @await Component.InvokeAsync("ServiceList")
             @await Component.InvokeAsync("SkillList")
@@ -29,10 +29,10 @@
                         <h2 class="marker marker-center">Benimle İletişim Kur</h2>
                     </div>
                     <div class="row">
-                      @*  @await Component.InvokeAsync("SendMessage")*@
+                        @*  @await Component.InvokeAsync("SendMessage")*@
                         @await Html.PartialAsync("/Views/Default/SendMessage.cshtml")
                         @await Component.InvokeAsync("ContactDetails")
-                      
+
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
                     <div class="text-small text-secondary">
                         <div class="mb-1">&copy; @DateTime.Now.Year. Tüm hakları saklıdır.</div>
                         <div>
-                            <!-- Make sure to buy a license for the template before removing the line below. Buy license on https://templateflip.com/ -->Design - <a href="/" target="_blank">İsmail Temel</a>
+                            <!-- Make sure to buy a license for the template before removing the line below. Buy license on https://templateflip.com/ -->Design - <a href="https://templateflip.com/" target="_blank">TemplateFlip</a>
                         </div>
                     </div>
                 </div>

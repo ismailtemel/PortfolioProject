@@ -15,14 +15,14 @@ namespace PortfolioProject.UI.Controllers
         public IActionResult ReceiverMessageList()
         {
             string p;
-            p = "selvi@gmail.com";
+            p = "ismailtemel2000@gmail.com";
             var values = writerMessageManager.GetListReceiverMessage(p);
             return View(values);
         }
         public IActionResult SenderMessageList()
         {
             string p;
-            p = "selvi@gmail.com";
+            p = "ismailtemel2000@gmail.com";
             var values = writerMessageManager.GetListSenderMessage(p);
             return View(values);
         }
@@ -47,10 +47,10 @@ namespace PortfolioProject.UI.Controllers
         {
             p.Sender = "admin@gmail.com";
             p.SenderName = "admin";
-            p.Date=DateTime.Parse(DateTime.Now.ToShortDateString());
-            Context c =new Context();
-            var usernamesurname=c.Users.Where(x=>x.Email==p.Receiver).Select(y=>y.Name+" "+y.Surname).FirstOrDefault();
-            p.ReceiverName=usernamesurname;
+            p.Date = DateTime.Parse(DateTime.Now.ToShortDateString());
+            Context c = new Context();
+            var usernamesurname = c.Users.Where(x => x.Email == p.Receiver).Select(y => y.Name + " " + y.Surname).FirstOrDefault();
+            p.ReceiverName = usernamesurname;
             writerMessageManager.TAdd(p);
             return RedirectToAction("SenderMessageList");
         }

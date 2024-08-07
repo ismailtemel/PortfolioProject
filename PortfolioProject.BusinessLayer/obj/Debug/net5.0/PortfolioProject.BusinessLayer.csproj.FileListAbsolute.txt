@@ -18,3 +18,4 @@ D:\PortfolioProject\PortfolioProject.BusinessLayer\obj\Debug\net5.0\refint\Portf
 D:\PortfolioProject\PortfolioProject.BusinessLayer\obj\Debug\net5.0\PortfolioProject.BusinessLayer.pdb
 D:\PortfolioProject\PortfolioProject.BusinessLayer\obj\Debug\net5.0\PortfolioProject.BusinessLayer.genruntimeconfig.cache
 D:\PortfolioProject\PortfolioProject.BusinessLayer\obj\Debug\net5.0\ref\PortfolioProject.BusinessLayer.dll
+D:\PortfolioProject\PortfolioProject.BusinessLayer\obj\Debug\net5.0\PortfolioProject.BusinessLayer.sourcelink.json

@@ -63,3 +63,4 @@ D:\PortfolioProject\PortfolioProject.API\obj\Debug\net5.0\refint\PortfolioProjec
 D:\PortfolioProject\PortfolioProject.API\obj\Debug\net5.0\PortfolioProject.API.pdb
 D:\PortfolioProject\PortfolioProject.API\obj\Debug\net5.0\PortfolioProject.API.genruntimeconfig.cache
 D:\PortfolioProject\PortfolioProject.API\obj\Debug\net5.0\ref\PortfolioProject.API.dll
+D:\PortfolioProject\PortfolioProject.API\obj\Debug\net5.0\PortfolioProject.API.sourcelink.json

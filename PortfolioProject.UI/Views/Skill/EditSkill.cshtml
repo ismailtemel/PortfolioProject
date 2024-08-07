@@ -3,13 +3,14 @@
     ViewData["Title"] = "EditSkill";
     Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
 }
+
 @using (Html.BeginForm("EditSkill", "Skill", FormMethod.Post))
 {
     <div class="col-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
                 <p class="card-description"> Yetenek Düzenleme Paneli </p>
-                <form class="forms-sample" >
+                <form class="forms-sample">
                     <div class="form-group">
                         <label>Id</label>
                         @Html.TextBoxFor(x => x.SkillID, new { @class = "form-control" })

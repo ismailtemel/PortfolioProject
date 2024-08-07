@@ -1,4 +1,4 @@
-﻿@using EntityLayer.Concrete
+﻿﻿@using EntityLayer.Concrete
 @model List<Portfolio>
 
 <div class="row ">
@@ -11,33 +11,34 @@
                         <thead>
                             <tr>
                                 <th>
-                                   #
+                                    #
                                 </th>
                                 <th> Proje Adı </th>
                                 <th> URL </th>
                                 <th> Fiyat </th>
                                 <th> Tamamlanma Oranı </th>
-                                <th> Durum </th>                             
+                                <th> Durum </th>
                             </tr>
                         </thead>
                         <tbody>
                             @foreach (var item in Model)
                             {
-                            <tr>
-                                <td> @item.PortfolioID
-                                </td>
-                                <td>
-                                        <img src="@item.ImageUrl"/>
-                                </td>
-                                <td> @item.Name </td>
-                                    
+                                <tr>
+                                    <td>
+                                        @item.PortfolioID
+                                    </td>
+                                    <td>
+                                        <img src="@item.ImageUrl" />
+                                    </td>
+                                    <td> @item.Name </td>
+
                                     <td> @item.Price </td>
                                     <td> %@item.Value </td>
                                     <td> @item.Status </td>
-                                <td>
+                                    <td>
                                         <div class="badge badge-outline-success"><a href="/Portfolio/EditPortfolio/@item.PortfolioID">Detayları Gör</a></div>
-                                </td>
-                            </tr>
+                                    </td>
+                                </tr>
                             }
                         </tbody>
                     </table>

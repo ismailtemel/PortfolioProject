@@ -34,7 +34,7 @@ namespace PortfolioProject.UI.Controllers
         public IActionResult EditSkill(int id)
         {
             var values = skillManager.TGetByID(id);
-            return View(values);    
+            return View(values);
         }
         [HttpPost]
         public IActionResult EditSkill(Skill skill)

@@ -16,3 +16,4 @@ D:\PortfolioProject\PortfolioProject.DataAccessLayer\obj\Debug\net5.0\refint\Por
 D:\PortfolioProject\PortfolioProject.DataAccessLayer\obj\Debug\net5.0\PortfolioProject.DataAccessLayer.pdb
 D:\PortfolioProject\PortfolioProject.DataAccessLayer\obj\Debug\net5.0\PortfolioProject.DataAccessLayer.genruntimeconfig.cache
 D:\PortfolioProject\PortfolioProject.DataAccessLayer\obj\Debug\net5.0\ref\PortfolioProject.DataAccessLayer.dll
+D:\PortfolioProject\PortfolioProject.DataAccessLayer\obj\Debug\net5.0\PortfolioProject.DataAccessLayer.sourcelink.json

@@ -10,7 +10,7 @@ namespace PortfolioProject.UI.Controllers
         ServiceManager serviceManager = new ServiceManager(new EfServiceDal());
         public IActionResult Index()
         {
-            var values= serviceManager.TGetList();
+            var values = serviceManager.TGetList();
             return View(values);
         }
         [HttpGet]

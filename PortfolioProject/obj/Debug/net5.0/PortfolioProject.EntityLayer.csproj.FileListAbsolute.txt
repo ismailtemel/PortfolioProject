@@ -13,3 +13,4 @@ D:\PortfolioProject\PortfolioProject\obj\Debug\net5.0\refint\PortfolioProject.En
 D:\PortfolioProject\PortfolioProject\obj\Debug\net5.0\PortfolioProject.EntityLayer.pdb
 D:\PortfolioProject\PortfolioProject\obj\Debug\net5.0\PortfolioProject.EntityLayer.genruntimeconfig.cache
 D:\PortfolioProject\PortfolioProject\obj\Debug\net5.0\ref\PortfolioProject.EntityLayer.dll
+D:\PortfolioProject\PortfolioProject\obj\Debug\net5.0\PortfolioProject.EntityLayer.sourcelink.json
